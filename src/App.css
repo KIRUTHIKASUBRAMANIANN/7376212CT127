@@ -1,0 +1,40 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: aqua;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.inputs {
+  background-color: black;
+  padding: 20px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.textbox {
+  flex: 1;
+}
+
+.textbox input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid red;
+  border-radius: 4px;
+}
